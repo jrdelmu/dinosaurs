@@ -45,7 +45,30 @@ body{
 }
 
 .dino{
-    border-width: 100px;
-    border: solid;
-    border-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    background-color: rgb(229, 243, 248);
+    padding: 50px;
+    border-radius: 6px;
+}
+
+.text{
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+img{
+    border-radius: 6px;
 }
