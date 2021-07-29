@@ -72,3 +72,17 @@ p{
 img{
     border-radius: 6px;
 }
+
+.facts{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.factsBox{
+    display: inline-block;
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+}
