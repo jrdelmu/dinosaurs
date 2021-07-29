@@ -1,9 +1,9 @@
 let favoriteDino = prompt('What is your favorite Dinosaur?')
 
-if (favoriteDino.toLocaleLowerCase() === 'Tyrannosaurus Rex'){
-    prompt('good choice!'){
-        else{
-            prompt('... The Tyrannosaurus Rex is much cooler')
-        }
-    }
+if (favoriteDino.toLowerCase() !== 'tyrannosaurus rex') {
+    alert('The Tyrannosaurus Rex is much cooler... but you can come in anyway.')
+} else {
+    alert('Good choice!')
 }
+
+
